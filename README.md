@@ -56,33 +56,4 @@ sql
 Copy
 Edit
 SELECT * FROM employees LIMIT 10 OFFSET 20;
-৭. UPDATE দিয়ে কীভাবে ডেটা পরিবর্তন করা যায়?
-sql
-Copy
-Edit
-UPDATE students SET grade = 'A' WHERE student_id = 101;
-৮. JOIN কী এবং কীভাবে কাজ করে?
-JOIN ব্যবহার করে একাধিক টেবিল যুক্ত করা যায়।
 
-sql
-Copy
-Edit
-SELECT orders.order_id, customers.name
-FROM orders
-INNER JOIN customers ON orders.customer_id = customers.customer_id;
-৯. GROUP BY ক্লজের কাজ কী?
-GROUP BY ব্যবহার করে একই মানের রো একসাথে করে বিশ্লেষণ করা হয়।
-
-sql
-Copy
-Edit
-SELECT department, COUNT(*) 
-FROM employees 
-GROUP BY department;
-১০. COUNT(), SUM(), এবং AVG() কিভাবে কাজ করে?
-sql
-Copy
-Edit
-SELECT COUNT(*) FROM employees;
-SELECT SUM(salary) FROM employees;
-SELECT AVG(age) FROM customers;
