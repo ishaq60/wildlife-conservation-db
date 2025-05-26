@@ -57,3 +57,14 @@ Copy
 Edit
 SELECT * FROM employees LIMIT 10 OFFSET 20;
 
+
+৬. LIMIT এবং OFFSET এর কাজ কী?
+LIMIT: কয়টি রো ফেরত আসবে নির্ধারণ করে।
+
+OFFSET: কয়টি রো স্কিপ করে শুরু করবে।
+
+sql
+Copy
+Edit
+SELECT * FROM employees LIMIT 10 OFFSET 20;
+
